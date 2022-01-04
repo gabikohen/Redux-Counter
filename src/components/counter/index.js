@@ -1,3 +1,4 @@
+import React from 'react'
 import {deposit,withdraw} from "../../store/amount/action";
 import { selectCurrentAmount } from "../../store/amount/reducer";
 import {connect} from "react-redux"
